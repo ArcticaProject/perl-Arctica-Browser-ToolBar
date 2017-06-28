@@ -1,0 +1,30 @@
+Source: libarctica-browser-toolbar-perl
+Section: perl
+Priority: optional
+Build-Depends:
+ cdbs,
+ debhelper (>= 9),
+Build-Depends-Indep:
+ perl (>= 5.8.0),
+Maintainer: Arctica Project Developers <devs@lists.arctica-project.org>
+Uploaders:
+ Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Homepage: https://arctica-project.org/
+Vcs-Git: https://github.com/ArcticaProject/perl-Arctica-Browser-ToolBar
+Vcs-Browser: https://github.com/ArcticaProject/perl-Arctica-Browser-ToolBar
+Standards-Version: 3.9.8
+
+Package: libarctica-browser-toolbar-perl
+Architecture: all
+Depends:
+ ${perl:Depends},
+ ${misc:Depends},
+ libglib-perl,
+ libgtk3-perl,
+Description: Arctica Browser: ToolBar Module
+ The Arctica Project brings forth a remote computing framework of
+ enterprise grade and quality. The Arctica Framework is a highly
+ modularized and thus pluggable for developing alls sort of remote
+ services.
+ .
+ This package provides the ToolBar Module for Arctica Web Browser.
